@@ -1,0 +1,199 @@
+# asset pack configurations
+[asset_pack]
+    # asset pack name
+    name =              "modern-weapons-assets"
+    # contributors
+    author =            "Voltaism"
+    # version
+    version =           "0.1.0"
+    # image URL
+    image =             "https://i.imgur.com/36kPgu8.jpg"
+
+# unreal engine configurations
+[unreal]
+    # unreal engine folder - the name of the root folder (the one inside UnrealProject/Content/) which the assets will have references to each other
+    unreal_folder =     "ModernWeapons"
+    # unreal engine version - unreal version this asset pack was compiled on
+    unreal_version =    "5.0.2"
+
+# assets files
+[assets]
+    # maps
+    [assets.maps]
+        # MyMap = "MyFolder/MyAwesomeMap"
+        # ...
+
+    # static meshes
+    [assets.static_meshes]
+        SM_Modern_Weapons_Explosive_01 = "Modern/Weapons/Assets/Explosives/01/SM_Modern_Weapons_Explosive_01"
+        SM_Modern_Weapons_Explosive_02 = "Modern/Weapons/Assets/Explosives/02/SM_Modern_Weapons_Explosive_02"
+        SM_Modern_Weapons_Explosive_03 = "Modern/Weapons/Assets/Explosives/03/SM_Modern_Weapons_Explosive_03"
+        SM_Modern_Weapons_Grenade_01 = "Modern/Weapons/Assets/Grenades/01/SM_Modern_Weapons_Grenade_01"
+        SM_Modern_Weapons_Grenade_02 = "Modern/Weapons/Assets/Grenades/02/SM_Modern_Weapons_Grenade_02"
+        SM_Modern_Weapons_Grenade_03 = "Modern/Weapons/Assets/Grenades/03/SM_Modern_Weapons_Grenade_03"
+        SM_Modern_Weapons_Grenade_04 = "Modern/Weapons/Assets/Grenades/04/SM_Modern_Weapons_Grenade_04"
+        SM_Modern_Weapons_LMG_01 = "Modern/Weapons/Assets/LMGs/01/SM_Modern_Weapons_LMG_01"
+        SM_Modern_Weapons_LMG_01_Mag = "Modern/Weapons/Assets/LMGs/01/SM_Modern_Weapons_LMG_01_Mag"
+        SM_Modern_Weapons_LMG_02 = "Modern/Weapons/Assets/LMGs/02/SM_Modern_Weapons_LMG_02"
+        SM_Modern_Weapons_LMG_02_Mag = "Modern/Weapons/Assets/LMGs/02/SM_Modern_Weapons_LMG_02_Mag"
+        SM_Modern_Weapons_LMG_03 = "Modern/Weapons/Assets/LMGs/03/SM_Modern_Weapons_LMG_03"
+        SM_Modern_Weapons_LMG_03_Mag = "Modern/Weapons/Assets/LMGs/03/SM_Modern_Weapons_LMG_03_Mag"
+        SM_Modern_Weapons_Launcher_01 = "Modern/Weapons/Assets/Launchers/01/SM_Modern_Weapons_Launcher_01"
+        SM_Modern_Weapons_Launcher_02 = "Modern/Weapons/Assets/Launchers/02/SM_Modern_Weapons_Launcher_02"
+        SM_Modern_Weapons_Launcher_03 = "Modern/Weapons/Assets/Launchers/03/SM_Modern_Weapons_Launcher_03"
+        SM_Modern_Weapons_Minigun_01 = "Modern/Weapons/Assets/Miniguns/01/SM_Modern_Weapons_Minigun_01"
+        SM_Modern_Weapons_Minigun_01_Mag = "Modern/Weapons/Assets/Miniguns/01/SM_Modern_Weapons_Minigun_01_Mag"
+        SM_Modern_Weapons_Pistol_01 = "Modern/Weapons/Assets/Pistols/01/SM_Modern_Weapons_Pistol_01"
+        SM_Modern_Weapons_Pistol_01_Mag = "Modern/Weapons/Assets/Pistols/01/SM_Modern_Weapons_Pistol_01_Mag"
+        SM_Modern_Weapons_Pistol_02 = "Modern/Weapons/Assets/Pistols/02/SM_Modern_Weapons_Pistol_02"
+        SM_Modern_Weapons_Pistol_02_Mag = "Modern/Weapons/Assets/Pistols/02/SM_Modern_Weapons_Pistol_02_Mag"
+        SM_Modern_Weapons_Pistol_03 = "Modern/Weapons/Assets/Pistols/03/SM_Modern_Weapons_Pistol_03"
+        SM_Modern_Weapons_Pistol_04 = "Modern/Weapons/Assets/Pistols/04/SM_Modern_Weapons_Pistol_04"
+        SM_Modern_Weapons_Projectile_LargeCaliber = "Modern/Weapons/Assets/Projectiles/SM_Modern_Weapons_Projectile_LargeCaliber"
+        SM_Modern_Weapons_Projectile_Launchers_01 = "Modern/Weapons/Assets/Projectiles/SM_Modern_Weapons_Projectile_Launchers_01"
+        SM_Modern_Weapons_Projectile_Launchers_02 = "Modern/Weapons/Assets/Projectiles/SM_Modern_Weapons_Projectile_Launchers_02"
+        SM_Modern_Weapons_Projectile_SmallCaliber = "Modern/Weapons/Assets/Projectiles/SM_Modern_Weapons_Projectile_SmallCaliber"
+        SM_Modern_Weapons_Revolver_01 = "Modern/Weapons/Assets/Revolvers/01/SM_Modern_Weapons_Revolver_01"
+        SM_Modern_Weapons_Revolver_02 = "Modern/Weapons/Assets/Revolvers/02/SM_Modern_Weapons_Revolver_02"
+        SM_Modern_Weapons_Rifle_01 = "Modern/Weapons/Assets/Rifles/01/SM_Modern_Weapons_Rifle_01"
+        SM_Modern_Weapons_Rifle_02 = "Modern/Weapons/Assets/Rifles/02/SM_Modern_Weapons_Rifle_02"
+        SM_Modern_Weapons_Rifle_03 = "Modern/Weapons/Assets/Rifles/03/SM_Modern_Weapons_Rifle_03"
+        SM_Modern_Weapons_Rifle_04 = "Modern/Weapons/Assets/Rifles/04/SM_Modern_Weapons_Rifle_04"
+        SM_Modern_Weapons_Rifle_05 = "Modern/Weapons/Assets/Rifles/05/SM_Modern_Weapons_Rifle_05"
+        SM_Modern_Weapons_Rifle_06 = "Modern/Weapons/Assets/Rifles/06/SM_Modern_Weapons_Rifle_06"
+        SM_Modern_Weapons_SMG_01 = "Modern/Weapons/Assets/SMGs/01/SM_Modern_Weapons_SMG_01"
+        SM_Modern_Weapons_SMG_02 = "Modern/Weapons/Assets/SMGs/02/SM_Modern_Weapons_SMG_02"
+        SM_Modern_Weapons_SMG_03 = "Modern/Weapons/Assets/SMGs/03/SM_Modern_Weapons_SMG_03"
+        SM_Modern_Weapons_SMG_04 = "Modern/Weapons/Assets/SMGs/04/SM_Modern_Weapons_SMG_04"
+        SM_Modern_Weapons_SMG_05 = "Modern/Weapons/Assets/SMGs/05/SM_Modern_Weapons_SMG_05"
+        SM_Modern_Weapons_SMG_06 = "Modern/Weapons/Assets/SMGs/06/SM_Modern_Weapons_SMG_06"
+        SM_Modern_Weapons_Scope_01 = "Modern/Weapons/Assets/Scopes/01/SM_Modern_Weapons_Scope_01"
+        SM_Modern_Weapons_Scope_02 = "Modern/Weapons/Assets/Scopes/02/SM_Modern_Weapons_Scope_02"
+        SM_Modern_Weapons_Scope_03 = "Modern/Weapons/Assets/Scopes/03/SM_Modern_Weapons_Scope_03"
+        SM_Modern_Weapons_Shotgun_01 = "Modern/Weapons/Assets/Shotguns/01/SM_Modern_Weapons_Shotgun_01"
+        SM_Modern_Weapons_Shotgun_02 = "Modern/Weapons/Assets/Shotguns/02/SM_Modern_Weapons_Shotgun_02"
+        SM_Modern_Weapons_Shotgun_03 = "Modern/Weapons/Assets/Shotguns/03/SM_Modern_Weapons_Shotgun_03"
+        SM_Modern_Weapons_Shotgun_04 = "Modern/Weapons/Assets/Shotguns/04/SM_Modern_Weapons_Shotgun_04"
+        SM_Modern_Weapons_Sniper_01 = "Modern/Weapons/Assets/Snipers/01/SM_Modern_Weapons_Sniper_01"
+        SM_Modern_Weapons_Sniper_01_No_Scope = "Modern/Weapons/Assets/Snipers/01/SM_Modern_Weapons_Sniper_01_No_Scope"
+        SM_Modern_Weapons_Sniper_02 = "Modern/Weapons/Assets/Snipers/02/SM_Modern_Weapons_Sniper_02"
+        SM_Modern_Weapons_Sniper_02_No_Scope = "Modern/Weapons/Assets/Snipers/02/SM_Modern_Weapons_Sniper_02_No_Scope"
+        SM_Modern_Weapons_Sniper_03 = "Modern/Weapons/Assets/Snipers/03/SM_Modern_Weapons_Sniper_03"
+        SM_Modern_Weapons_Sniper_03_No_Scope = "Modern/Weapons/Assets/Snipers/03/SM_Modern_Weapons_Sniper_03_No_Scope"
+        SM_Modern_Weapons_Sniper_04 = "Modern/Weapons/Assets/Snipers/04/SM_Modern_Weapons_Sniper_04"
+        SM_Modern_Weapons_Sniper_04_No_Scope = "Modern/Weapons/Assets/Snipers/04/SM_Modern_Weapons_Sniper_04_No_Scope"
+
+    # skeletal meshes
+    [assets.skeletal_meshes]
+        SKM_Modern_Weapons_Explosive_01 = "Modern/Weapons/Assets/Explosives/01/SKM_Modern_Weapons_Explosive_01"
+        SKM_Modern_Weapons_Explosive_02 = "Modern/Weapons/Assets/Explosives/02/SKM_Modern_Weapons_Explosive_02"
+        SKM_Modern_Weapons_Explosive_03 = "Modern/Weapons/Assets/Explosives/03/SKM_Modern_Weapons_Explosive_03"
+        SKM_Modern_Weapons_Grenade_01 = "Modern/Weapons/Assets/Grenades/01/SKM_Modern_Weapons_Grenade_01"
+        SKM_Modern_Weapons_Grenade_02 = "Modern/Weapons/Assets/Grenades/02/SKM_Modern_Weapons_Grenade_02"
+        SKM_Modern_Weapons_Grenade_03 = "Modern/Weapons/Assets/Grenades/03/SKM_Modern_Weapons_Grenade_03"
+        SKM_Modern_Weapons_Grenade_04 = "Modern/Weapons/Assets/Grenades/04/SKM_Modern_Weapons_Grenade_04"
+        SKM_Modern_Weapons_LMG_01 = "Modern/Weapons/Assets/LMGs/01/SKM_Modern_Weapons_LMG_01"
+        SKM_Modern_Weapons_LMG_02 = "Modern/Weapons/Assets/LMGs/02/SKM_Modern_Weapons_LMG_02"
+        SKM_Modern_Weapons_LMG_03 = "Modern/Weapons/Assets/LMGs/03/SKM_Modern_Weapons_LMG_03"
+        SKM_Modern_Weapons_Launcher_01 = "Modern/Weapons/Assets/Launchers/01/SKM_Modern_Weapons_Launcher_01"
+        SKM_Modern_Weapons_Launcher_02 = "Modern/Weapons/Assets/Launchers/02/SKM_Modern_Weapons_Launcher_02"
+        SKM_Modern_Weapons_Launcher_03 = "Modern/Weapons/Assets/Launchers/03/SKM_Modern_Weapons_Launcher_03"
+        SKM_Modern_Weapons_Minigun_01 = "Modern/Weapons/Assets/Miniguns/01/SKM_Modern_Weapons_Minigun_01"
+        SKM_Modern_Weapons_Pistol_01 = "Modern/Weapons/Assets/Pistols/01/SKM_Modern_Weapons_Pistol_01"
+        SKM_Modern_Weapons_Pistol_02 = "Modern/Weapons/Assets/Pistols/02/SKM_Modern_Weapons_Pistol_02"
+        SKM_Modern_Weapons_Pistol_03 = "Modern/Weapons/Assets/Pistols/03/SKM_Modern_Weapons_Pistol_03"
+        SKM_Modern_Weapons_Pistol_04 = "Modern/Weapons/Assets/Pistols/04/SKM_Modern_Weapons_Pistol_04"
+        SKM_Modern_Weapons_Revolver_01 = "Modern/Weapons/Assets/Revolvers/01/SKM_Modern_Weapons_Revolver_01"
+        SKM_Modern_Weapons_Revolver_02 = "Modern/Weapons/Assets/Revolvers/02/SKM_Modern_Weapons_Revolver_02"
+        SKM_Modern_Weapons_Rifle_01 = "Modern/Weapons/Assets/Rifles/01/SKM_Modern_Weapons_Rifle_01"
+        SKM_Modern_Weapons_Rifle_02 = "Modern/Weapons/Assets/Rifles/02/SKM_Modern_Weapons_Rifle_02"
+        SKM_Modern_Weapons_Rifle_03 = "Modern/Weapons/Assets/Rifles/03/SKM_Modern_Weapons_Rifle_03"
+        SKM_Modern_Weapons_Rifle_04 = "Modern/Weapons/Assets/Rifles/04/SKM_Modern_Weapons_Rifle_04"
+        SKM_Modern_Weapons_Rifle_05 = "Modern/Weapons/Assets/Rifles/05/SKM_Modern_Weapons_Rifle_05"
+        SKM_Modern_Weapons_Rifle_06 = "Modern/Weapons/Assets/Rifles/06/SKM_Modern_Weapons_Rifle_06"
+        SKM_Modern_Weapons_SMG_01 = "Modern/Weapons/Assets/SMGs/01/SKM_Modern_Weapons_SMG_01"
+        SKM_Modern_Weapons_SMG_02 = "Modern/Weapons/Assets/SMGs/02/SKM_Modern_Weapons_SMG_02"
+        SKM_Modern_Weapons_SMG_03 = "Modern/Weapons/Assets/SMGs/03/SKM_Modern_Weapons_SMG_03"
+        SKM_Modern_Weapons_SMG_04 = "Modern/Weapons/Assets/SMGs/04/SKM_Modern_Weapons_SMG_04"
+        SKM_Modern_Weapons_SMG_05 = "Modern/Weapons/Assets/SMGs/05/SKM_Modern_Weapons_SMG_05"
+        SKM_Modern_Weapons_SMG_06 = "Modern/Weapons/Assets/SMGs/06/SKM_Modern_Weapons_SMG_06"
+        SKM_Modern_Weapons_Shotgun_01 = "Modern/Weapons/Assets/Shotguns/01/SKM_Modern_Weapons_Shotgun_01"
+        SKM_Modern_Weapons_Shotgun_02 = "Modern/Weapons/Assets/Shotguns/02/SKM_Modern_Weapons_Shotgun_02"
+        SKM_Modern_Weapons_Shotgun_03 = "Modern/Weapons/Assets/Shotguns/03/SKM_Modern_Weapons_Shotgun_03"
+        SKM_Modern_Weapons_Shotgun_04 = "Modern/Weapons/Assets/Shotguns/04/SKM_Modern_Weapons_Shotgun_04"
+        SKM_Modern_Weapons_Sniper_01 = "Modern/Weapons/Assets/Snipers/01/SKM_Modern_Weapons_Sniper_01"
+        SKM_Modern_Weapons_Sniper_01_No_Scope = "Modern/Weapons/Assets/Snipers/01/SKM_Modern_Weapons_Sniper_01_No_Scope"
+        SKM_Modern_Weapons_Sniper_02 = "Modern/Weapons/Assets/Snipers/02/SKM_Modern_Weapons_Sniper_02"
+        SKM_Modern_Weapons_Sniper_02_No_Scope = "Modern/Weapons/Assets/Snipers/02/SKM_Modern_Weapons_Sniper_02_No_Scope"
+        SKM_Modern_Weapons_Sniper_03 = "Modern/Weapons/Assets/Snipers/03/SKM_Modern_Weapons_Sniper_03"
+        SKM_Modern_Weapons_Sniper_03_No_Scope = "Modern/Weapons/Assets/Snipers/03/SKM_Modern_Weapons_Sniper_03_No_Scope"
+        SKM_Modern_Weapons_Sniper_04 = "Modern/Weapons/Assets/Snipers/04/SKM_Modern_Weapons_Sniper_04"
+        SKM_Modern_Weapons_Sniper_04_No_Scope = "Modern/Weapons/Assets/Snipers/04/SKM_Modern_Weapons_Sniper_04_No_Scope"
+
+    # sounds
+    [assets.sounds]
+        # A_Awesome_Music = "Sounds/A_Awesome_Music"
+        # ...
+
+    # animations
+    [assets.animations]
+        ANI_Modern_Weapons_Explosive_01_Priming = "Modern/Weapons/Assets/Explosives/01/ANI_Modern_Weapons_Explosive_01_Priming"
+        ANI_Modern_Weapons_Explosive_02_Priming = "Modern/Weapons/Assets/Explosives/02/ANI_Modern_Weapons_Explosive_02_Priming"
+        ANI_Modern_Weapons_Explosive_03 = "Modern/Weapons/Assets/Explosives/03/ANI_Modern_Weapons_Explosive_03"
+        ANI_Modern_Weapons_Grenade_01_Priming = "Modern/Weapons/Assets/Grenades/01/ANI_Modern_Weapons_Grenade_01_Priming"
+        ANI_Modern_Weapons_Grenade_02_Priming = "Modern/Weapons/Assets/Grenades/02/ANI_Modern_Weapons_Grenade_02_Priming"
+        ANI_Modern_Weapons_Grenade_03_Priming = "Modern/Weapons/Assets/Grenades/03/ANI_Modern_Weapons_Grenade_03_Priming"
+        ANI_Modern_Weapons_Grenade_04_Priming = "Modern/Weapons/Assets/Grenades/04/ANI_Modern_Weapons_Grenade_04_Priming"
+        ANI_Modern_Weapons_LMG_01_Fire = "Modern/Weapons/Assets/LMGs/01/ANI_Modern_Weapons_LMG_01_Fire"
+        ANI_Modern_Weapons_LMG_02_Fire = "Modern/Weapons/Assets/LMGs/02/ANI_Modern_Weapons_LMG_02_Fire"
+        ANI_Modern_Weapons_LMG_03_Fire = "Modern/Weapons/Assets/LMGs/03/ANI_Modern_Weapons_LMG_03_Fire"
+        ANI_Modern_Weapons_Launcher_01_Fire = "Modern/Weapons/Assets/Launchers/01/ANI_Modern_Weapons_Launcher_01_Fire"
+        ANI_Modern_Weapons_Launcher_02_Fire = "Modern/Weapons/Assets/Launchers/02/ANI_Modern_Weapons_Launcher_02_Fire"
+        ANI_Modern_Weapons_Launcher_03_Fire = "Modern/Weapons/Assets/Launchers/03/ANI_Modern_Weapons_Launcher_03_Fire"
+        ANI_Modern_Weapons_Minigun_01_Fire = "Modern/Weapons/Assets/Miniguns/01/ANI_Modern_Weapons_Minigun_01_Fire"
+        ANI_Modern_Weapons_Pistol_01_Fire = "Modern/Weapons/Assets/Pistols/01/ANI_Modern_Weapons_Pistol_01_Fire"
+        ANI_Modern_Weapons_Pistol_02_Fire = "Modern/Weapons/Assets/Pistols/02/ANI_Modern_Weapons_Pistol_02_Fire"
+        ANI_Modern_Weapons_Pistol_03_Fire = "Modern/Weapons/Assets/Pistols/03/ANI_Modern_Weapons_Pistol_03_Fire"
+        ANI_Modern_Weapons_Pistol_04_Fire = "Modern/Weapons/Assets/Pistols/04/ANI_Modern_Weapons_Pistol_04_Fire"
+        ANI_Modern_Weapons_Revolver_01_Fire = "Modern/Weapons/Assets/Revolvers/01/ANI_Modern_Weapons_Revolver_01_Fire"
+        ANI_Modern_Weapons_Revolver_02_Fire = "Modern/Weapons/Assets/Revolvers/02/ANI_Modern_Weapons_Revolver_02_Fire"
+        ANI_Modern_Weapons_Rifle_01_Fire = "Modern/Weapons/Assets/Rifles/01/ANI_Modern_Weapons_Rifle_01_Fire"
+        ANI_Modern_Weapons_Rifle_02_Fire = "Modern/Weapons/Assets/Rifles/02/ANI_Modern_Weapons_Rifle_02_Fire"
+        ANI_Modern_Weapons_Rifle_03_Fire = "Modern/Weapons/Assets/Rifles/03/ANI_Modern_Weapons_Rifle_03_Fire"
+        ANI_Modern_Weapons_Rifle_04_Fire = "Modern/Weapons/Assets/Rifles/04/ANI_Modern_Weapons_Rifle_04_Fire"
+        ANI_Modern_Weapons_Rifle_05_Fire = "Modern/Weapons/Assets/Rifles/05/ANI_Modern_Weapons_Rifle_05_Fire"
+        ANI_Modern_Weapons_Rifle_06_Fire = "Modern/Weapons/Assets/Rifles/06/ANI_Modern_Weapons_Rifle_06_Fire"
+        ANI_Modern_Weapons_SMG_01_Fire = "Modern/Weapons/Assets/SMGs/01/ANI_Modern_Weapons_SMG_01_Fire"
+        ANI_Modern_Weapons_SMG_02-Fire = "Modern/Weapons/Assets/SMGs/02/ANI_Modern_Weapons_SMG_02-Fire"
+        ANI_Modern_Weapons_SMG_03_Fire = "Modern/Weapons/Assets/SMGs/03/ANI_Modern_Weapons_SMG_03_Fire"
+        ANI_Modern_Weapons_SMG_04_Fire = "Modern/Weapons/Assets/SMGs/04/ANI_Modern_Weapons_SMG_04_Fire"
+        ANI_Modern_Weapons_SMG_05_Fire = "Modern/Weapons/Assets/SMGs/05/ANI_Modern_Weapons_SMG_05_Fire"
+        ANI_Modern_Weapons_SMG_06_Fire = "Modern/Weapons/Assets/SMGs/06/ANI_Modern_Weapons_SMG_06_Fire"
+        ANI_Modern_Weapons_Shotgun_01_Fire = "Modern/Weapons/Assets/Shotguns/01/ANI_Modern_Weapons_Shotgun_01_Fire"
+        ANI_Modern_Weapons_Shotgun_02_Fire = "Modern/Weapons/Assets/Shotguns/02/ANI_Modern_Weapons_Shotgun_02_Fire"
+        ANI_Modern_Weapons_Shotgun_03-Fire = "Modern/Weapons/Assets/Shotguns/03/ANI_Modern_Weapons_Shotgun_03-Fire"
+        ANI_Modern_Weapons_Shotgun_04_Fire = "Modern/Weapons/Assets/Shotguns/04/ANI_Modern_Weapons_Shotgun_04_Fire"
+        ANI_Modern_Weapons_Sniper_01_Fire = "Modern/Weapons/Assets/Snipers/01/ANI_Modern_Weapons_Sniper_01_Fire"
+        ANI_Modern_Weapons_Sniper_02_Fire = "Modern/Weapons/Assets/Snipers/02/ANI_Modern_Weapons_Sniper_02_Fire"
+        ANI_Modern_Weapons_Sniper_03_Fire = "Modern/Weapons/Assets/Snipers/03/ANI_Modern_Weapons_Sniper_03_Fire"
+        ANI_Modern_Weapons_Sniper_04_Fire = "Modern/Weapons/Assets/Snipers/04/ANI_Modern_Weapons_Sniper_04_Fire"
+
+    # particles
+    [assets.particles]
+        # P_Big_Explosion = "Particles/P_Big_Explosion"
+        # ...
+
+    # materials
+    [assets.materials]
+        # M_Red_Textured = "Materials/M_Red_Textured"
+        # ...
+
+    # blueprints
+    [assets.blueprints]
+        # BP_AmazingStuff = "Blueprints/BP_AmazingStuff"
+        # ...
+
+    # other assets (for not yet categorized ones)
+    [assets.others]
+        # Some_Stuff = "Others/Some_Stuff"
+        # ...
